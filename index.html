@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .logo {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #2C3639;
+            font-size: 48px;
+        }
+        
+        .nav-link {
+            color: #DCD7C9;
+            font-size: 18px;
+        }
+        
+        .navbar {
+            background-color: #A27B5C !important;
+        }
+        
+        .image {
+            display: block;
+            width: 100%;
+            height: 800px;
+        }
+        
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #DCD7C9;
+            font-size: 160px;
+        }
+        
+        .bg-darkgreen {
+            background-color: #2C3639;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">WIZARD COFFEE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href=" #Home">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#Menu">Menu</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#Visit">Visit Us</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#Contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="conatiner" id="Home">
+        <img class="img-fluid image pt-5" src="./assets/img/ryan-riggins-3l54bPRT6hQ-unsplash.jpg " alt="Coffee-Bag " />
+        <h1 class="text shadow-sm">Fuel Your Creative Mind</h1>
+    </div>
+    <div class="container">
+        <!-- Header -->
+        <div class="row pt-5 pb-5">
+            <div class="col-6">
+                <div class="text-center">
+                    <img class="img-fluid" src="./assets/img/mike-kenneally-TD4DBagg2wE-unsplash.jpg " alt="Coffee-Bean" width="60%" />
+                </div>
+            </div>
+            <div class="col-6">
+                <header class="text-start">
+                    <h1>Welcome to Wizard</h1>
+                    <p>Discover the perfect blend of taste and ambiance at Wizard. Our passion for quality coffee and exceptional service is reflected in every cup we serve. Whether you're here for a quick pick-me-up or a relaxing break, Wizard is your ideal
+                        destination.
+                    </p>
+                </header>
+            </div>
+        </div>
+        <hr />
+        <!-- Menu -->
+        <section id="Menu">
+            <h2 class="my-4 ">Menu</h2>
+            <p>Explore our carefully crafted menu, designed to satisfy your coffee cravings and more.</p>
+
+            <!-- Coffee -->
+            <div class="mb-4 ">
+                <h3>Coffee</h3>
+                <ul class="list-unstyled ">
+                    <li><strong>Espresso</strong> - A rich, full-bodied shot of pure coffee perfection.</li>
+                    <li><strong>Americano</strong> - Espresso diluted with hot water, offering a smooth, robust flavor.
+                    </li>
+                    <li><strong>Cappuccino</strong> - A harmonious blend of espresso, steamed milk, and a delicate layer of foam.</li>
+                    <li><strong>Latte</strong> - Espresso mixed with generous steamed milk and topped with a light foam.
+                    </li>
+                    <li><strong>Mocha</strong> - A delightful combination of espresso, chocolate, and steamed milk, topped with whipped cream.</li>
+                </ul>
+            </div>
+
+            <!-- Signature Drinks -->
+            <div class="mb-4 ">
+                <h3>Signature Drinks</h3>
+                <ul class="list-unstyled ">
+                    <li><strong>Wizard Special</strong> - Our exclusive blend of espresso, caramel, and a touch of vanilla, finished with steamed milk.</li>
+                    <li><strong>Iced Wizard Delight</strong> - Refreshing iced coffee with a hint of mint and a splash of cream.</li>
+                </ul>
+            </div>
+
+            <!-- Cold Brews -->
+            <div class="mb-4 ">
+                <h3>Cold Brews</h3>
+                <ul class="list-unstyled ">
+                    <li><strong>Classic Cold Brew</strong> - Slowly steeped to perfection, offering a smooth and bold taste.</li>
+                    <li><strong>Vanilla Sweet Cream Cold Brew</strong> - Cold brew topped with our house-made vanilla sweet cream.</li>
+                </ul>
+            </div>
+
+            <!-- Non-Coffee Beverages -->
+            <div class="mb-4 ">
+                <h3>Non-Coffee Beverages</h3>
+                <ul class="list-unstyled ">
+                    <li><strong>Matcha Latte</strong> - Premium matcha green tea blended with steamed milk for a creamy, refreshing drink.</li>
+                    <li><strong>Chai Tea Latte</strong> - A spicy and sweet mix of chai tea and steamed milk, topped with a sprinkle of cinnamon.</li>
+                    <li><strong>Hot Chocolate</strong> - Rich and creamy, made with high-quality cocoa and steamed milk.
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Bakery -->
+            <div class="mb-4 ">
+                <h3>Bakery</h3>
+                <ul class="list-unstyled ">
+                    <li><strong>Croissants</strong> - Freshly baked, buttery, and flaky, perfect for any time of day.
+                    </li>
+                    <li><strong>Muffins</strong> - A variety of flavors including blueberry, chocolate chip, and bran, baked fresh daily.</li>
+                    <li><strong>Pastries</strong> - A selection of delectable pastries, including Danish, tarts, and scones.
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Sandwiches and Salads -->
+            <div class="mb-4 ">
+                <h3>Sandwiches and Salads</h3>
+                <ul class="list-unstyled ">
+                    <li><strong>Chicken Caesar Wrap</strong> - Grilled chicken, crisp romaine, and Caesar dressing, all wrapped in a soft tortilla.</li>
+                    <li><strong>Veggie Panini</strong> - Grilled vegetables, mozzarella, and pesto on artisan bread.
+                    </li>
+                    <li><strong>Quinoa Salad</strong> - A healthy mix of quinoa, fresh vegetables, and a light vinaigrette.
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Desserts -->
+            <div class="mb-4 ">
+                <h3>Desserts</h3>
+                <ul class="list-unstyled ">
+                    <li><strong>Cheesecake</strong> - Creamy and smooth, with a graham cracker crust, available in various flavors.</li>
+                    <li><strong>Brownies</strong> - Rich and fudgy, perfect for chocolate lovers.</li>
+                    <li><strong>Fruit Tart</strong> - A buttery crust filled with creamy custard and topped with fresh, seasonal fruits.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Visit Us -->
+        <section class="my-5 " id="Visit">
+            <h2>Visit Us</h2>
+            <p>Experience the best of coffee and more at Wizard. Our cozy atmosphere and friendly staff are here to make your visit memorable. We look forward to serving you!</p>
+        </section>
+        <div class="text-center p-5">
+            <img class="img-fluid" src="./assets/img/rizky-subagja-1k7TnX5GAww-unsplash.jpg " alt="Coffee-Bar" width="30%" />
+        </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="container-fluid p-5 bg-darkgreen " id="Contact">
+        <div class="text-light">
+            <h2>Contact Us</h2>
+            <p>Have questions or need more information? Reach out to us:</p>
+            <ul class="list-unstyled ">
+                <li><strong>Phone:</strong> (xxx) xxx-xxxx</li>
+                <li><strong>Email:</strong> info@wizard.com</li>
+                <li><strong>Address:</strong> 123 Coffee Lane, Brewtown, USA</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js "></script>
+</body>
+
+</html>
+
+</div>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js "></script>
+</body>
+
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz " crossorigin="anonymous "></script>
+</body>
+
+</html>
